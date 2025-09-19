@@ -1,0 +1,66 @@
+/* CSS Style Sheet for Justin Morrow's CSD-340 Landing Page */
+/* CSS Reference: https://www.w3schools.com/css/css_selectors.asp */
+/* Decimal Color Reference: https://htmlcolorcodes.com/color-picker/ */
+/* CSS Link Reference: https://www.w3schools.com/css/css_link.asp */
+
+
+/* Set the top margin to 50px, left margin to 100px, right margin to 100px */
+#container {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+/* Set the h1, h2, h3, and h4 tags to a background color of your choice,
+	a font color that can be readily viewed with the background color,
+	a border of 1px solid and #D6A800, and padding of 10px */
+h1 {
+  background-color: #002040;
+  color: #ffffff;
+  border: 1px solid #D6A800;
+  padding: 10px;
+}
+
+
+h2 {
+  background-color: #002040;
+  color: #ffffff;
+  border: 1px solid #D6A800;
+  padding: 10px;
+}
+
+
+h3 {
+  background-color: #002040;
+  color: #ffffff;
+  border: 1px solid #D6A800;
+  padding: 10px;
+}
+
+
+h4 {
+  background-color: #002040;
+  color: #ffffff;
+  border: 1px solid #D6A800;
+  padding: 10px;
+}
+
+
+/* Set the anchor tag to a color that blends in with your color scheme and a text decoration of none */
+a:link {
+  color: #0E05FA;
+  text-decoration: none;
+}
+
+
+/* Set the anchor visited to a color that blends in with your color scheme */
+a:visited {
+  color: #4F3674;
+}
+
+
+/* Set the anchor hover to a color that blends in with your color scheme */
+a:hover {
+  color: #D6A800;
+}
