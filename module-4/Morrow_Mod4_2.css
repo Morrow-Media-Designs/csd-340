@@ -1,0 +1,74 @@
+/* CSS Style Sheet for Justin Morrow's CSD-340 Module 4.2 Assignment - 09/27/25 */
+/* CSS Reference: 
+	https://www.w3schools.com/css/
+	https://www.w3schools.com/cssref/func_rgb.php
+	https://www.w3schools.com/css/css_grid.asp
+	Note: Classes use (.) and IDs use (#)
+	Note: The rgba() function is an alias for the rgb() function. It is recommended to use the rgb() function. 
+*/
+
+
+/* 	Placeholder since the assignment indicates to add a container id but doesn't outline anything for it */
+#container {
+}
+
+
+/* 	Center the h1 text and give it optional color
+	Using rgba, add a different color to the h1, h3, and figcaption tags. optional.
+*/
+h1 {
+	text-align: center;
+	color: rgb(255 0 0); /* red */
+}
+
+
+/* 	Center the h3 text (title for each of the image gallery items)
+	Using rgba, add a different color to the h1, h3, and figcaption tags. optional. 
+*/
+h3 {
+	text-align: center;
+	color: rgb(0 0 255); /* blue */
+}
+
+
+/* 	Apply a CSS grid with three columns for the 3 side-by-side divs
+	Give the image-gallery div a margin-top of 10%
+*/
+#image-gallery {
+	margin-top: 10%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+}
+
+
+/* Placeholder since the assignment indicates to add a 3 grid for the books but doesn't outline any attributes to differentiate one from the other */
+#left-image-div {
+}
+
+#middle-image-div {
+}
+
+#right-image-div {
+}
+
+
+/* 	Apply text-align center to the figure tag  (this will basically center the image in the div) */
+figure {
+	text-align: center;
+}
+
+
+/* 	Apply a font style of italic to the figcaption text and set the font-size to .75em
+   	Using rgba, add a different color to the h1, h3, and figcaption tags. optional.
+*/
+figcaption {
+	font-style: italic;
+	font-size: .75em;
+	color: rgb(192 192 192); /* grey */
+}
+
+/* 	Underneath the picture gallery, add a link back to the landing/portal page in the same position as Module 3.3. */
+#footer-div {
+	float: right;
+	margin-bottom: 20px;
+}
