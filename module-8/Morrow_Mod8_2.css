@@ -69,7 +69,7 @@ Set color to an appropriate color
 */
 #navbar a:hover {
 	background-color: #A5ACAF; /* Wolf Grey for the hover over block color change*/ 
-	color: #69BE28; /* Action Green for the menu text to change*/
+	color: white; /* Changed text color from Action Green to white for better visibility 10/23/25.*/
 }
 
 
