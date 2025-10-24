@@ -1,0 +1,198 @@
+/* CSS Style Sheet for Justin Morrow's CSD-340 Module 8.2 Assignment - 10/23/25 */
+/* CSS Assignment References: 
+	https://www.w3schools.com/css/
+	https://www.w3schools.com/css/css_form.asp
+	https://www.w3schools.com/css/css3_buttons.asp
+	https://www.w3schools.com/css/css_table.asp
+	https://www.w3schools.com/howto/howto_css_fixed_footer.asp 
+	Note: Classes use (.) and IDs use (#)
+	Note: Correction from Assignment 4.2 and my understanding. It is ok to use rgba() if using 4 placeholders since the 4th is transparancy. Use rgb 3 placeholders and no transparancy.
+	Seahawks colors: https://teamcolorcodes.com/seattle-seahawks-color-codes/
+*/
+
+
+/*
+Select an appropriate background color
+Set the text color to white 
+Give the element a padding of 20px 
+Center the text 
+*/
+header {
+	background-color: #A5ACAF; /* Wolf Grey */
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+
+/* Set the weight to 400*/
+h1 {
+	color: white;
+	text-align: center;
+	font-weight: 400;
+}
+
+
+/*
+Set the overflow to hidden
+Select an appropriate background color
+Set the bottom border to a solid 15px with an appropriate color
+ */
+#navbar {
+	overflow: hidden;
+	background-color: #002244; /* College Navy */
+	border-bottom: solid 15px #69BE28; /* I changed from Wolf Grey A5ACAF to Action Green 10/23/25*/
+}
+
+
+/*
+Float the text to the left
+Set the display to block 
+Set the color to white, or another appropriate color 
+Center the text
+Give it a padding of “14px 16px”
+Remove the underline 
+*/
+#navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+/*
+Select an appropriate background color
+Set color to an appropriate color
+*/
+#navbar a:hover {
+	background-color: #A5ACAF; /* Wolf Grey for the hover over block color change*/ 
+	color: #69BE28; /* Action Green for the menu text to change*/
+}
+
+
+/* Updated container div: Deleted padding: 10px; and added padding-bottom: 100px;
+Kept Original: Set the top margin to 2%, Set the left margin to 5%, Set the right margin to 5%
+*/
+#container {
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 100px;
+}
+
+
+/*
+Set the box shadow to 0 4px 8px 0 and an rgba(0, 0, 0, 0.2)
+Set the transition to 0.3s
+Set the width to 50%
+*/
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	width: 50%;
+}
+
+
+/*
+Center the text
+Set the font-size to 2em
+Select an appropriate color
+Set the weight to 400
+*/
+.card-title {
+	text-align: center;
+	font-size: 2em;
+	color: #002244; /* College Navy */
+	font-weight: 400;
+}
+
+
+/* Set the padding to “2px 16px” */
+.card-content {
+	padding: 2px 16px;
+}
+
+
+/* When users hover over the card set the box shadow to 0 8px 16px 0 rgba(0, 0, 0, 0.2) */
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add #movies: Set the border-collapse to collapse, Set the width to 100%, Set the bottom margin to 30px */
+#movies {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+/* For the movies th: Set the top padding to 12px, Set the bottom padding to 12px, Align the text to the left*/
+#movies th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	
+	/* I added these 3 options to make it match your example image though these weren't defined in the instructions*/
+	background-color: #002244; /* College Navy */
+	border: 1px solid #ddd;
+	color: white;
+}
+
+
+/* For the movies td: Set the border to 1px solid with a color of #ddd Set the padding to 8px*/
+#movies td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+
+/* Updated footer: Set the position to fixed (it was absolute), Set the left to 0.
+Previous Values kept: Set the background color to the same color as your header, Set the bottom to 0, Give it a width of 100% */
+footer {
+	background-color: #002244; /* College Navy */
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+
+/* Updated Footer: I added a footer .right and footer .left to support the Copyright and Return to portal.
+I moved the float settings out of footer p into the new footer .right and footer .left as well as the padding.
+Kept Original under footer p: Underneath the list, add a link back to the portal page, Select an appropriate color.
+Set the weight to 400, Set the font-style to italic
+*/
+footer p {
+	color: white;
+	font-weight: 400;
+	font-style: italic;
+}
+
+footer .right {
+	float: right;
+	padding-right: 10px;
+}
+
+footer .left {
+	float: left;
+	padding-left: 10px;
+}
+
+
+/*
+Remove the underline 
+Set the color to white, or another appropriate color 
+*/
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+
+/* Underline the text  */
+footer a:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HTML File for Justin Morrow's CSD-340 Module 8.2 Assignment - 10/23/25
+	Resource for this weeks assignment:
+	https://www.w3schools.com/tags/tag_br.asp
+	https://www.w3schools.com/html/html_symbols.asp
+	https://www.w3schools.com/html/html_forms.asp
+	https://www.youtube.com/watch?v=rZ0k516qZmc&list=PLP9IO4UYNF0VdAajP_5pYG-jG2JRrG72s
+-->
+
+<head>
+<!-- Meta Header Tags Copied over from previous assignment -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Build a Webpage Exercise, Part 5">
+  <meta name="robots" content="nofollow">
+  <meta name="author" content="Justin Morrow">
+ 
+<!-- Link for Google Fonts Copied over from previous assignment -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ 
+<!-- Link for my CSS Style Sheet -->  
+  <link href="../module-8/Morrow_Mod8_2.css" type="text/css" rel="stylesheet">
+  
+<!-- My Page Title Seen on Browser Tab-->  
+  <title>CSD 340 Web Development with HTML and CSS</title>
+</head>
+
+<body>
+	<div id="navbar">
+		<!-- Rename the h1 text value to “Assignment 8.2: Build a Web Page - Part 6” -->
+		<h1>Assignment 8.2: Build a Web Page - Part 6</h1>
+		<a href="#" target="_self">Home</a>
+		<a href="#" target="_self">About</a>
+		<a href="#" target="_self">Contact</a>
+	</div>
+	<div id="container">
+		<!-- Add a new card, card-title, and card-content divs above the Favorite Foods list div -->
+		<div class="card">
+			<!-- Give the card title a value of “Top 5 Favorite Movies” -->
+			<div class="card-title">Top 5 Favorite Movies</div>
+			<div class="card-content">
+			<!-- Table given an ID of movies to support the CSS file #movies -->
+			<table id="movies">
+				<tr>
+					<!-- In the card content, create a table with two columns. First column has a header of "Movie Name", second column has a header of "Two Characters". -->
+					<th>Movie Name</th>
+					<th>Two Characters</th>
+				</tr>
+				<tr>
+					<td>Man on Fire</td>
+					<!-- In the second column for each movie, create an unordered list of two characters from the movie listed in column one. -->
+					<td>
+						<ul>
+							<li>Denzel Washington</li>
+							<li>Dakota Fanning</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td>Avengers: Infinity War</td>
+					<td>
+						<ul>
+							<li>Robert Downey Jr.</li>
+							<li>Josh Brolin</li>
+						</ul>
+					</td>
+				</tr>				
+				<tr>
+					<td>The Dark Knight</td>
+					<td>
+						<ul>
+							<li>Heath Ledger</li>
+							<li>Christian Bale</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td>Transformers</td>
+					<td>
+						<ul>
+							<li>Shia LaBeouf</li>
+							<li>Megan Fox</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td>Guess Who</td>
+					<td>
+						<ul>
+							<li>Bernie Mac</li>
+							<li>Ashton Kutcher</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+
+			</div>
+		</div>
+		
+		<!-- Add two HTML line breaks between the two cards -->
+		<br>
+		<br>
+		
+		<!-- The second card div can be copied from the last assignment for favorite foods. -->
+		<div class="card">
+			<div class="card-title">Top 5 Favorite Foods</div>
+			<div class="card-content">
+				<ol>
+					<li><a href="https://www.traeger.com/recipes/beef-brisket" target="_blank">Smoked Brisquet</a></li>
+					<li><a href="https://madeinnewmexico.com/blogs/recipes/red-chile-beef-stuffed-sopapillas" target="_blank">Stuffed Sopapillas</a></li>
+					<li><a href="https://www.newmexicomagazine.org/blog/post/tacos-new-mexico-style/" target="_blank">Tacos</a></li>
+					<li><a href="https://littlesunnykitchen.com/marry-me-chicken/" target="_blank">Marry Me Chicken</a></li>
+					<li><a href="https://www.delish.com/cooking/recipe-ideas/a28914527/frito-pie-recipe/" target="_blank">Frito Pie</a></li>
+				</ol>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<!-- Modify the footer to add a copyright year and your last name aligned to the left. -->
+		<div class="left">
+			<p>Copyright 2025 - Morrow</p>
+		</div>
+		<!-- Updated the previous version to now use footer-right so I can have 2 floats in the footer. -->
+		<div class="right">
+			<p><a href="../index.html">Return to Landing Page</a></p>
+		</div>
+
+	</footer>
+</body>
+</html>
