@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- https://validator.w3.org/nu/#textarea shows Document checking completed. No errors or warnings to show. -->
+<html lang="en">
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="CSD-402 Module 9.3 Assignment JavaScript Exercise, Part 1">
+	<meta name="robots" content="nofollow">
+	<meta name="author" content="Justin Morrow">	
+	
+</head>
+
+<body>
+	<div id="container">
+		<!-- Header Tag of H1 for the page title -->
+		<h1>Assignment 9.3: JavaScript - Part 1</h1>
+		<!-- Header Tag of H2 for the Sub Heading -->
+		<h2>Let's have some fun. Do you know the missing lyrics to "Schools Out" by Alice Cooper?</h2>
+		<!-- Hyperlink to the lyrics for cheaters or those with no knowledge of the classics -->
+		<p><a href="https://www.alicecooperechive.com/albums/lyrics/schools-out"  target="_blank">Click here if you need help.</a> (Don't worry, I won't fault you for your lack of knowledge in the classics!)</p>
+		
+		<!-- Write at least three paragraphs; either a short story about you, or a poem, or movie dialog.. etc.
+			Place four <span> tags containing a blank line (underscores) for four words.
+			Declare four javascript variables holding the string inputs for these span tags.
+			Create a button for each tag that will replace the underscores when selected.
+		-->
+		<!-- Resource: https://www.w3schools.com/jsref/event_onclick.asp -->
+		<br>
+        <p>Well we got no choice</p>
+        <p>All the girls and boys</p>		
+        <p>Makin all that noise</p>
+        <p>'Cause they found new toys</p>
+        <p>Well we can't salute ya, can't find a flag</p>
+        <p>If that don't suit ya that's a drag</p>
+        <br>
+		<p>School's out for <span id="summer">______</span></p>
+		<p>School's out forever</p>
+        <p>School's been blown to pieces</p>
+		<p><button onclick="document.getElementById('summer').innerHTML = 'summer'">Show the 1st Lyric</button></p>
+        <br>
+		<p>No more pencils</p>
+        <p>No more <span id="books">_____</span></p>
+		<p>No more teacher's dirty looks</p>
+		<p><button onclick="document.getElementById('books').innerHTML = 'books'">Show the 2nd Lyric</button></p>
+        <br>
+		<p>Well we got no class</p>
+        <p>And we got no principles</p>
+        <p>And we got no innocence</p>
+        <p>We can't even think of a word that rhymes</p>
+        <br>
+		<p>School's out for summer</p>
+        <p>School's out forever</p>
+        <p>My school's been blown to pieces</p>
+        <br>
+		<p>No more pencils</p>
+        <p>No more books</p>
+        <p>No more teacher's <span id="dirty">_____</span> looks</p>
+		<p><button onclick="document.getElementById('dirty').innerHTML = 'dirty'">Show the 3rd Lyric</button></p>
+        <br>
+		<p>Out for summer</p>
+        <p>Out 'till fall</p>
+        <p>We might not go back at all</p>
+        <br>
+		<p>School's out <span id="forever">_______</span></p>
+		<p>School's out for summer</p>
+        <p>School's out with fever</p>
+        <p>School's out completely</p>
+		<p><button onclick="document.getElementById('forever').innerHTML = 'forever'">Show the 4th Lyric</button></p>
+	</div>
+</body>
+
+</html>
